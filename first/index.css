@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+}
+
+header {
+    background-color: grey;
+    height: 20vh;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.side {
+    background-color: lightgray;
+    height: 80vh;
+    width: 20vw;
+}
+
+footer {
+    background-color: black;
+    height: 10vh;
+    width: 80vw;
+    
+}
