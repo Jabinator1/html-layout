@@ -1,0 +1,89 @@
+body {
+    margin: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.top {
+    height: 20vh;
+    border-width: 5px;
+    border-style: solid;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 0 0 1% 0.75%;
+}
+
+#purple {
+    background-color: purple;
+    width: 4%;
+    height: 70%;
+}
+
+#green {
+    background-color: green;
+    width: 40%;
+    height: 95%;
+    margin: 0 4%;
+}
+.container {
+    position: relative;
+    display: inline-block;
+    height: 90%;
+}
+
+.container > img {
+    height: 100%;
+}
+
+#circle {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: cornflowerblue;
+    border-radius: 50%;
+}
+
+.middle {
+    border-style: dotted;
+    border-width: 5px;
+    height: 27vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3vh 0;
+}
+
+.tan {
+    width: 90%;
+    height: 70%;
+    background-color: tan;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.bottom {
+    border-width: 1px;
+    border-style: solid;
+    border-color: lightgray;
+    padding: 50px;
+    width: 40%;
+    height: 25vh;
+    box-shadow: 2px 2px 5px lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25%;
+}
+
+#hello {
+    text-align: center;
+}
+
+#hello > h2 {
+    color: darkblue;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 13px;
+}
